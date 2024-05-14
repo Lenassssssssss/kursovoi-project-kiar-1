@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+    <service>
+        <name>BSTUVPN</name>
+        <limitations>без ограничений</limitations>
+        <traffic>безлимит</traffic>
+        <countries>257</countries>
+        <subscription>за спасибо!</subscription>
+        <speedReduction>-62,9% на загрузку -65% на загрузку</speedReduction>
+        <features>скорость света</features>
+    </service>
+    <service>
+        <name>ProtonVPN</name>
+        <limitations>серверы, скорость</limitations>
+        <traffic>500 МБ в месяц</traffic>
+        <countries>3</countries>
+        <subscription>от 25 рублей</subscription>
+        <speedReduction>-83,4% на загрузку -68,7% на загрузку</speedReduction>
+        <features>пользовательские профили</features>
+    </service>
+    <service>
+        <name>TunnelBear</name>
+        <limitations>трафик</limitations>
+        <traffic>безлимит</traffic>
+        <countries>27</countries>
+        <subscription>от 60 рублей</subscription>
+        <speedReduction>-4,8% на загрузку -62,9% на загрузку</speedReduction>
+        <features>высокая скорость</features>
+    </service>
+    <service>
+        <name>Hotspot Shield</name>
+        <limitations>триал на 7 дней</limitations>
+        <traffic>безлимит</traffic>
+        <countries>126</countries>
+        <subscription>от 31 рублей</subscription>
+        <speedReduction>-62,9% на загрузку -62,9% на загрузку</speedReduction>
+        <features>+1ГБ трафика за твит</features>
+    </service>
+    <service>
+        <name>Windscribe</name>
+        <limitations>трафик, скорость</limitations>
+        <traffic>10 ГБ в месяц</traffic>
+        <countries>11</countries>
+        <subscription>от 41 рублей</subscription>
+        <speedReduction>-62,9% на загрузку -62,9% на загрузку</speedReduction>
+        <features>высокая скорость</features>
+    </service>
+    <service>
+        <name>Speedify</name>
+        <limitations>трафик</limitations>
+        <traffic>2 ГБ в месяц</traffic>
+        <countries>33</countries>
+        <subscription>от 33 рублей</subscription>
+        <speedReduction>-62,9% на загрузку -62,9% на загрузку</speedReduction>
+        <features>много бесплатного трафика</features>
+    </service>
+    <service>
+        <name>Hide.me</name>
+        <limitations>трафик, скорость</limitations>
+        <traffic>10 ГБ в месяц</traffic>
+        <countries>4</countries>
+        <subscription>от 32 рублей</subscription>
+        <speedReduction>-67,9% на загрузку -62% на загрузку</speedReduction>
+        <features>временное ускорение</features>
+    </service>
+    <service>
+        <name>Psiphon</name>
+        <limitations>скорость</limitations>
+        <traffic>безлимит</traffic>
+        <countries>20</countries>
+        <subscription>от 30 рублей</subscription>
+        <speedReduction>-32% на загрузку -46,6% на загрузку</speedReduction>
+        <features>много бесплатного трафика</features>
+    </service>
+    <service>
+        <name>Snap VPN</name>
+        <limitations>триал на 7 дней</limitations>
+        <traffic>безлимит</traffic>
+        <countries>10</countries>
+        <subscription>от 39 рублей</subscription>
+        <speedReduction>-62,9% на загрузку -62,9% на загрузку</speedReduction>
+        <features>высокая скорость</features>
+    </service>
+    <service>
+        <name>Betternet</name>
+        <limitations>триал на 7 дней</limitations>
+        <traffic>безлимит</traffic>
+        <countries>100</countries>
+        <subscription>от 38 рублей</subscription>
+        <speedReduction>-62,9% на загрузку -62,9% на загрузку</speedReduction>
+        <features>высокая скорость</features>
+    </service>
+</services>

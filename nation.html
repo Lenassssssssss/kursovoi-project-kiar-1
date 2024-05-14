@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nation.css"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/nationadapt.css"> 
+    <title>Страны</title>
+</head>
+<body>
+    <header class = "header">
+        <div class = "div1">
+            <svg width="65" height="59" viewBox="0 0 65 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.5" d="M8.125 25.6077C8.125 17.7468 8.125 13.8165 9.14745 12.4942C10.1699 11.172 14.2413 9.90695 22.3841 7.3769L23.9355 6.8949C28.1802 5.57605 30.3025 4.91663 32.5 4.91663C34.6975 4.91663 36.8198 5.57605 41.0646 6.8949L42.6159 7.3769C50.7588 9.90695 54.8302 11.172 55.8526 12.4942C56.875 13.8165 56.875 17.7468 56.875 25.6077C56.875 26.7948 56.875 28.0825 56.875 29.4788C56.875 43.3389 45.3944 50.0651 38.1913 52.9212C36.2375 53.6959 35.2606 54.0833 32.5 54.0833C29.7394 54.0833 28.7625 53.6959 26.8086 52.9212C19.6055 50.0651 8.125 43.3389 8.125 29.4788C8.125 28.0825 8.125 26.7948 8.125 25.6077Z" stroke="#2F366A" stroke-width="2.4"/>
+                <path d="M32.4999 27.0416C35.4915 27.0416 37.9166 24.8403 37.9166 22.1249C37.9166 19.4095 35.4915 17.2083 32.4999 17.2083C29.5084 17.2083 27.0833 19.4095 27.0833 22.1249C27.0833 24.8403 29.5084 27.0416 32.4999 27.0416Z" stroke="#2F366A" stroke-width="2.4"/>
+                <path d="M43.3334 36.8749C43.3334 39.5904 43.3334 41.7916 32.5001 41.7916C21.6667 41.7916 21.6667 39.5904 21.6667 36.8749C21.6667 34.1594 26.517 31.9583 32.5001 31.9583C38.4831 31.9583 43.3334 34.1594 43.3334 36.8749Z" stroke="#2F366A" stroke-width="2.4"/>
+            </svg>     
+            <p>
+                BSTUVPN
+            </p>
+        </div>
+        <nav class="Mm">
+            <ol class="Ol">
+                <li><a href="main.index.html">Главная</a></li>
+                <li><a href="tarif.html">Тарифы</a></li>
+                <li><a href="other.html">Справочник</a></li>
+                <li><a href="form.html">Регистрация</a></li>
+            </ol>
+        </nav>
+        <div class="burger-menu" id="burger-menu" onclick="toggleMenu()">
+            <svg id="burger-icon" width="30" height="30" viewBox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect y="18" width="30" height="3" fill="#2F366A"/>
+                <rect y="9" width="30" height="3" fill="#2F366A"/>
+                <rect width="30" height="3" fill="#2F366A"/>
+            </svg>
+        </div>
+        <nav class="Bmenu" id="Bmenu">
+            <ol class="ol">
+                <li><a class="Ada" href="main.index.html">Главная</a></li>
+                <li><a class="Ada" href="tarif.html">Тарифы</a></li>
+                <li><a class="Ada" href="other.html">Справочник</a></li>
+                <li><a class="Ada" href="form.html">Регистрация</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <h1>Страны, в которых доступны наши услуги</h1>
+        <div class="container">
+            <div class="nationscontent">
+            <div class="nations"><div class="ten" data-aos="fade-up">10</div></div>
+            <p class="nationstext">Страны</p>
+        </div>
+        <div class="slider">
+            <div class="slide">
+                <img src="img/australia.png" class="active">
+                <img src="img/austria.png">
+                <img src="img/germany.png">
+                <img src="img/georgia.png">
+                <img src="img/canada.png">
+                <img src="img/belarus.png">
+                <img src="img/spain.png">
+                <img src="img/italy.png">
+                <img src="img/united-kingdom.png">
+                <img src="img/hungary.png">
+            </div>
+            <div class="buttons">
+                <button class="flagbutton" onclick="nextSlide()">
+                    <svg width="84.000000" height="35.000000" viewBox="0 0 84 35" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc>
+                                Created with Pixso.
+                        </desc>
+                        <defs/>
+                        <path id="Arrow 1" d="M54.21 20L0 20L0 14L54.21 14L54.21 -0.2L84 17L54.21 34.19L54.21 20Z" fill="#6873C7" fill-opacity="1.000000" fill-rule="evenodd"/>
+                    </svg>                         
+                </button>
+            </div>
+        </div>
+        <div class="serverscontent">
+        <div class="servers"><div class="four" data-aos="fade-up">4,461</div></div>
+        <p class="serverstext">Серверы</p>
+    </div>
+    </div>
+    <p class="text">
+        BSTUVPN управляет 107 серверами Secure Core в 100 странах, которые доступны всем пользователям. Мы маршрутизируем сетевой трафик через серверы в странах с соблюдением конфиденциальности, таких как Швейцария или Исландия, для обеспечения максимальной конфиденциальности и безопасности. Наши серверы и сети полностью принадлежат и управляются BSTUVPN для обеспечения дополнительной безопасности.
+    </p>
+    <div class="fon">
+        <p class="fontext">
+            Скачайте BSTUVPN на свое устройство
+        </p>
+      <p class="scroll-text">Android<span></span> iPhone/iPad<span></span>  Windows<span></span>  macOS<span></span>  Chrome<span></span>Android<span></span> iPhone/iPad<span></span>  Windows<span></span>  macOS<span></span>  Chrome</p>
+      <button class="scrollbutton" input type="button">Скачать<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="24" height="24" fill="white" style="mix-blend-mode:multiply"/>
+        <path d="M13.5 4.5L12.4275 5.54475L18.1125 11.25H3V12.75H18.1125L12.4275 18.4298L13.5 19.5L21 12L13.5 4.5Z" fill="#6873C7"/>
+        </svg>
+        </button>
+    </div>
+    </main>
+    <footer class = "footer">
+        <div  class = "div2">
+            <svg width="65" height="59" viewBox="0 0 65 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.5" d="M8.125 25.6077C8.125 17.7468 8.125 13.8165 9.14745 12.4942C10.1699 11.172 14.2413 9.90695 22.3841 7.3769L23.9355 6.8949C28.1802 5.57605 30.3025 4.91663 32.5 4.91663C34.6975 4.91663 36.8198 5.57605 41.0646 6.8949L42.6159 7.3769C50.7588 9.90695 54.8302 11.172 55.8526 12.4942C56.875 13.8165 56.875 17.7468 56.875 25.6077C56.875 26.7948 56.875 28.0825 56.875 29.4788C56.875 43.3389 45.3944 50.0651 38.1913 52.9212C36.2375 53.6959 35.2606 54.0833 32.5 54.0833C29.7394 54.0833 28.7625 53.6959 26.8086 52.9212C19.6055 50.0651 8.125 43.3389 8.125 29.4788C8.125 28.0825 8.125 26.7948 8.125 25.6077Z" stroke="#2F366A" stroke-width="2.4"/>
+                <path d="M32.4999 27.0416C35.4915 27.0416 37.9166 24.8403 37.9166 22.1249C37.9166 19.4095 35.4915 17.2083 32.4999 17.2083C29.5084 17.2083 27.0833 19.4095 27.0833 22.1249C27.0833 24.8403 29.5084 27.0416 32.4999 27.0416Z" stroke="#2F366A" stroke-width="2.4"/>
+                <path d="M43.3334 36.8749C43.3334 39.5904 43.3334 41.7916 32.5001 41.7916C21.6667 41.7916 21.6667 39.5904 21.6667 36.8749C21.6667 34.1594 26.517 31.9583 32.5001 31.9583C38.4831 31.9583 43.3334 34.1594 43.3334 36.8749Z" stroke="#2F366A" stroke-width="2.4"/>
+            </svg>     
+            <p>
+                BSTUVPN
+            </p>
+        </div>
+        <div class = "box">
+            <nav class="Mm">
+                <ol class="Ol">
+                    <li><a href="main.index.html">Главная</a></li>
+                    <li><a href="tarif.html">Тарифы</a></li>
+                    <li><a href="other.html">Справочник</a></li>
+                    <li><a href="form.html">Регистрация</a></li>
+                </ol>
+            </nav>
+            <div class = "menu">
+                <p><a href="https://t.me/adevoper">Telegram</a></p>
+                <p><a href="#">Instagram</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide img');
+    
+        function showSlide(index) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            currentSlide = (index + slides.length) % slides.length;
+
+            slides[currentSlide].classList.add('active');
+        }
+    
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+    
+        slides.forEach(slide => {
+            slide.addEventListener('click', nextSlide);
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+     <script src="script.js"></script>
+    </body>
