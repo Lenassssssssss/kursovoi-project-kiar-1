@@ -1,0 +1,734 @@
+@media screen and (max-width: 1000px) {
+  .last {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+            justify-content: left !important;
+  }
+  .shag3fon {
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../img/tradopt2.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 1300px !important;
+    height: 1302px !important;
+  }
+  .accordion {
+    margin: 0 !important;
+    margin-top: 12px !important;
+    width: 900px !important;
+  }
+  .tarifblock {
+    max-width: 384px;
+    max-height: 296px;
+    border-radius: 7px;
+    border: 1px solid rgb(218, 218, 218);
+    background: rgb(255, 255, 255);
+    margin: 0 !important;
+    margin-top: 100px !important;
+    max-width: 900px !important;
+    width: 900px !important;
+  }
+  .blocktextdiv {
+    width: 382px;
+    height: 153px;
+    max-width: 899px !important;
+    width: 899px !important;
+  }
+  .summary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: left !important;
+        -ms-flex-align: left !important;
+            align-items: left !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 870px !important;
+    height: 65px;
+    padding-right: 10px;
+  }
+  .visa {
+    max-width: 900px !important;
+    width: 900px !important;
+  }
+  .paypal {
+    max-width: 900px !important;
+    width: 900px !important;
+  }
+  .bitcoin {
+    max-width: 900px !important;
+    width: 900px !important;
+  }
+  .vpn {
+    max-width: 900px !important;
+    width: 900px !important;
+  }
+  .mastercard {
+    max-width: 900px !important;
+    width: 900px !important;
+  }
+  .belkart {
+    max-width: 900px !important;
+    width: 900px !important;
+  }
+  .unionpay {
+    max-width: 900px !important;
+    width: 900px !important;
+  }
+}
+@media screen and (max-width: 909px) {
+  .last {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+            justify-content: left !important;
+  }
+  .shag3fon {
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../img/tradopt2.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 1300px !important;
+    height: 1302px !important;
+  }
+  .accordion {
+    margin: 0 !important;
+    margin-top: 12px !important;
+    width: 800px !important;
+  }
+  .tarifblock {
+    margin: 0 !important;
+    margin-top: 100px !important;
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .blocktextdiv {
+    max-width: 799px !important;
+    width: 799px !important;
+  }
+  .summary {
+    -webkit-box-align: left !important;
+        -ms-flex-align: left !important;
+            align-items: left !important;
+    width: 770px !important;
+  }
+  .visa {
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .paypal {
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .bitcoin {
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .vpn {
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .mastercard {
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .belkart {
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .unionpay {
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .shag2 {
+    width: 800px !important;
+    max-width: 800px !important;
+  }
+  .shag3 {
+    width: 800px !important;
+    max-width: 800px !important;
+  }
+  .shag1 {
+    width: 800px !important;
+    max-width: 800px !important;
+  }
+}
+@media screen and (max-width: 809px) {
+  .last {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+            justify-content: left !important;
+  }
+  .shag3fon {
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../img/adopt2222.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 1300px !important;
+    height: 1302px !important;
+  }
+  .accordion {
+    margin: 0 !important;
+    margin-top: 12px !important;
+    width: 700px !important;
+  }
+  .tarifblock {
+    margin: 0 !important;
+    margin-top: 100px !important;
+    max-width: 700px !important;
+    width: 700px !important;
+  }
+  .blocktextdiv {
+    max-width: 699px !important;
+    width: 699px !important;
+  }
+  .summary {
+    -webkit-box-align: left !important;
+        -ms-flex-align: left !important;
+            align-items: left !important;
+    width: 670px !important;
+  }
+  .visa {
+    max-width: 700px !important;
+    width: 700px !important;
+  }
+  .paypal {
+    max-width: 700px !important;
+    width: 700px !important;
+  }
+  .bitcoin {
+    max-width: 700px !important;
+    width: 700px !important;
+  }
+  .vpn {
+    max-width: 700px !important;
+    width: 700px !important;
+  }
+  .mastercard {
+    max-width: 700px !important;
+    width: 700px !important;
+  }
+  .belkart {
+    max-width: 700px !important;
+    width: 700px !important;
+  }
+  .unionpay {
+    max-width: 700px !important;
+    width: 700px !important;
+  }
+  .shag2 {
+    width: 700px !important;
+    max-width: 700px !important;
+  }
+  .shag3 {
+    width: 700px !important;
+    max-width: 700px !important;
+  }
+  .shag1 {
+    width: 700px !important;
+    max-width: 700px !important;
+  }
+  .Mm {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 709px) {
+  .last {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+            justify-content: left !important;
+  }
+  .shag3fon {
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../img/adopt2222.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 1300px !important;
+    height: 1302px !important;
+  }
+  .accordion {
+    margin: 0 !important;
+    margin-top: 12px !important;
+    width: 600px !important;
+  }
+  .tarifblock {
+    margin: 0 !important;
+    margin-top: 100px !important;
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .blocktextdiv {
+    max-width: 599px !important;
+    width: 599px !important;
+  }
+  .summary {
+    -webkit-box-align: left !important;
+        -ms-flex-align: left !important;
+            align-items: left !important;
+    width: 570px !important;
+  }
+  .visa {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .paypal {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .bitcoin {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .vpn {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .mastercard {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .belkart {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .unionpay {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .shag2 {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .shag3 {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .shag1 {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .plan {
+    width: 150px !important;
+    height: 47px !important;
+  }
+  h1 {
+    font-size: 42px !important;
+  }
+}
+@media screen and (max-width: 609px) {
+  .last {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+            justify-content: left !important;
+  }
+  .shag3fon {
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../img/adopt2222.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 1300px !important;
+    height: 1302px !important;
+  }
+  .accordion {
+    margin: 0 !important;
+    margin-top: 12px !important;
+    width: 500px !important;
+  }
+  .tarifblock {
+    margin: 0 !important;
+    margin-top: 100px !important;
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .blocktextdiv {
+    max-width: 499px !important;
+    width: 499px !important;
+  }
+  .summary {
+    -webkit-box-align: left !important;
+        -ms-flex-align: left !important;
+            align-items: left !important;
+    width: 470px !important;
+  }
+  .visa {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .paypal {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .bitcoin {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .vpn {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .mastercard {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .belkart {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .unionpay {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .shag2 {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .shag3 {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .shag1 {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .plan {
+    width: 150px !important;
+    height: 47px !important;
+  }
+  h1 {
+    font-size: 42px !important;
+  }
+  input {
+    width: 408px !important;
+  }
+}
+@media screen and (max-width: 509px) {
+  .last {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+            justify-content: left !important;
+  }
+  .shag3fon {
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../img/adopt2222.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 1400px !important;
+    height: 1402px !important;
+  }
+  .accordion {
+    margin: 0 !important;
+    margin-top: 12px !important;
+    width: 400px !important;
+  }
+  .tarifblock {
+    margin: 0 !important;
+    margin-top: 100px !important;
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .blocktextdiv {
+    max-width: 399px !important;
+    width: 399px !important;
+  }
+  .summary {
+    -webkit-box-align: left !important;
+        -ms-flex-align: left !important;
+            align-items: left !important;
+    width: 370px !important;
+  }
+  .visa {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .paypal {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .bitcoin {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .vpn {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .mastercard {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .belkart {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .unionpay {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .shag2 {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .shag3 {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .shag1 {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  h1 {
+    font-size: 37px !important;
+  }
+  input {
+    width: 390px !important;
+  }
+  .menu {
+    margin: 0 auto !important;
+  }
+  .menu p {
+    font-size: 12px !important;
+  }
+  .menu:not(:first-child) {
+    margin-left: 45px !important;
+  }
+  .div1 p {
+    font-size: 16px !important;
+  }
+  .div2 p {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 409px) {
+  .last {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+            justify-content: left !important;
+  }
+  .shag3fon {
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../img/adopt2222.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 1400px !important;
+    height: 1402px !important;
+  }
+  .accordion {
+    margin: 0 !important;
+    margin-top: 12px !important;
+    width: 350px !important;
+  }
+  .tarifblock {
+    margin: 0 !important;
+    margin-top: 100px !important;
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  .blocktextdiv {
+    max-width: 349px !important;
+    width: 349px !important;
+  }
+  .summary {
+    -webkit-box-align: left !important;
+        -ms-flex-align: left !important;
+            align-items: left !important;
+    width: 320px !important;
+  }
+  .visa {
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  .paypal {
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  .bitcoin {
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  .vpn {
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  .mastercard {
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  .belkart {
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  .unionpay {
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  .shag2 {
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  .shag3 {
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  .shag1 {
+    max-width: 350px !important;
+    width: 350px !important;
+  }
+  h1 {
+    font-size: 37px !important;
+  }
+  input {
+    width: 350px !important;
+  }
+  .menu {
+    margin: 0 auto !important;
+  }
+  .menu p {
+    font-size: 12px !important;
+  }
+  .menu:not(:first-child) {
+    margin-left: 12px !important;
+  }
+  .div1 p {
+    font-size: 16px !important;
+  }
+  .div2 p {
+    font-size: 16px !important;
+  }
+  .icon {
+    display: none !important;
+  }
+  .icon2 {
+    padding-right: 15px !important;
+  }
+}
+@media screen and (min-width: 410px) {
+  .icon2 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 809px) {
+  .Bmenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(192, 199, 255);
+    top: -100%;
+    left: 0;
+    -webkit-transition: top 0.3s;
+    transition: top 0.3s;
+    z-index: 900;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Bmenu .ol {
+    list-style: none;
+    padding: 0;
+  }
+  .Bmenu .ol li {
+    margin: 20px 0;
+  }
+  .Bmenu .ol li .Ada {
+    color: rgb(47, 54, 106);
+    text-decoration: none;
+    font-size: 24px;
+  }
+  .Bmenu.active {
+    top: 0;
+  }
+  .burger-menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 709px) {
+  #prevButton, #nextButton {
+    display: block;
+    background-color: white;
+    margin-top: 350px;
+  }
+  #prevButton {
+    -webkit-transform: translateX(108px);
+            transform: translateX(108px);
+  }
+  #nextButton {
+    -webkit-transform: translateX(-108px);
+            transform: translateX(-108px);
+  }
+  .block2 {
+    width: 280px !important;
+    height: 341px !important;
+  }
+}
+@media screen and (max-width: 609px) {
+  #prevButton {
+    -webkit-transform: translateX(68px);
+            transform: translateX(68px);
+  }
+  #nextButton {
+    -webkit-transform: translateX(-68px);
+            transform: translateX(-68px);
+  }
+}
+@media screen and (max-width: 509px) {
+  #prevButton {
+    -webkit-transform: translateX(28px);
+            transform: translateX(28px);
+  }
+  #nextButton {
+    -webkit-transform: translateX(-28px);
+            transform: translateX(-28px);
+  }
+}
+@media screen and (max-width: 409px) {
+  #prevButton, #nextButton {
+    margin-top: 390px;
+  }
+  #prevButton {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  #nextButton {
+    -webkit-transform: translateX(-8px);
+            transform: translateX(-8px);
+  }
+}

@@ -1,0 +1,588 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.Bmenu {
+  display: none;
+}
+
+.blocks-s1 {
+  display: none;
+}
+
+#prevButton, #nextButton {
+  height: -webkit-max-content !important;
+  height: -moz-max-content !important;
+  height: max-content !important;
+  background-color: white;
+  margin-top: 150px;
+}
+
+#prevButton {
+  -webkit-transform: translateX(28px);
+          transform: translateX(28px);
+}
+
+#nextButton {
+  -webkit-transform: translateX(-28px);
+          transform: translateX(-28px);
+}
+
+body {
+  background-image: url(../img/main.png);
+  background-repeat: no-repeat;
+  background-size: 100% 650px;
+}
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 53px;
+  background-color: #C0C7FF;
+}
+body .header .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .header .div1 img {
+  width: 62px;
+  height: 69px;
+  margin-right: 10px;
+}
+body .header .div1 p {
+  color: rgb(47, 54, 106);
+  font-family: Advent Pro;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body .header .Mm .Ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+body .header .Mm .Ol li {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .header .Mm .Ol li:not(:first-child) {
+  margin-left: 45px;
+}
+body .header .Mm .Ol li a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .header .Mm .Ol li a:hover {
+  color: rgb(253, 253, 255);
+}
+body main {
+  max-width: 100%;
+  width: 100%;
+}
+body main .conteiner {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 900px;
+}
+body main .conteiner .safety h1 {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 52px;
+  width: 608px;
+  margin: 0 auto;
+  font-weight: 900;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 71px;
+}
+body main .conteiner .safety h5 {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+}
+body main .conteiner .safety button {
+  border-radius: 100px;
+  background: rgb(225, 229, 255);
+  width: 257px;
+  height: 54px;
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 33px auto;
+}
+body main .conteiner .safety button:hover {
+  background: rgb(244, 245, 255);
+}
+body main .conteiner .three .Pochemy {
+  padding-top: 163px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body main .conteiner .three .Pochemy .Kongfig {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .conteiner .three .blocks-s {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 106px;
+}
+body main .conteiner .three .blocks-s .block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  width: 280px;
+  height: 361px;
+}
+body main .conteiner .three .blocks-s .block1 .blockh {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .conteiner .three .blocks-s .block1 .blockp {
+  max-width: 240px;
+  max-height: 105px;
+  color: rgb(104, 115, 199);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .conteiner .three .blocks-s .block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  width: 280px;
+  height: 361px;
+}
+body main .conteiner .three .blocks-s .block2 .blockh {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .conteiner .three .blocks-s .block2 .blockp {
+  max-height: 105px;
+  max-width: 240px;
+  color: rgb(104, 115, 199);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .conteiner .three .blocks-s .block3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  width: 280px;
+  height: 361px;
+}
+body main .conteiner .three .blocks-s .block3 label {
+  margin: 0 auto;
+}
+body main .conteiner .three .blocks-s .block3 .block3svg {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .conteiner .three .blocks-s .block3 .blockh {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .conteiner .three .blocks-s .block3 .blockp {
+  max-height: 105px;
+  max-width: 240px;
+  color: rgb(104, 115, 199);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .comment {
+  background-image: url(../img/main2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 550px;
+}
+body main .comment .voda {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 477px;
+  max-height: 123px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+body main .comment .Grid {
+  margin: 0 auto;
+  margin-top: 35px;
+  max-width: 900px;
+  width: 900px;
+  display: -ms-grid;
+  display: grid;
+  gap: 25px;
+  -ms-grid-rows: 100px 25px 100px;
+  grid-template-rows: 100px 100px;
+  -ms-grid-columns: 430px 25px 430px;
+  grid-template-columns: 430px 430px;
+}
+body main .comment .Grid > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+body main .comment .Grid > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+body main .comment .Grid > *:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+body main .comment .Grid > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+body main .comment .Grid .Parck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: rgb(225, 229, 255);
+  max-width: 430.29px;
+  max-height: 99px;
+}
+body main .comment .Grid .Parck .img1 {
+  margin-left: 23px;
+}
+body main .comment .Grid .Parck .Parckp {
+  margin-left: 23px;
+  margin-left: 23px;
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .comment .Grid .Parck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: rgb(225, 229, 255);
+  max-width: 430.29px;
+  max-height: 99px;
+}
+body main .comment .Grid .Parck .img2 {
+  margin-left: 23px;
+}
+body main .comment .Grid .Parck .Parckp {
+  margin-left: 23px;
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .comment .Grid .Parck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: rgb(225, 229, 255);
+  max-width: 430.29px;
+  max-height: 99px;
+}
+body main .comment .Grid .Parck .img3 {
+  margin-left: 23px;
+}
+body main .comment .Grid .Parck .Parckp {
+  margin-left: 23px;
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .comment .Grid .Parck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  background: rgb(225, 229, 255);
+  max-width: 430px;
+  width: 100%;
+  max-height: 99px;
+}
+body main .comment .Grid .Parck .img4 {
+  margin-left: 23px;
+}
+body main .comment .Grid .Parck .Parckp {
+  margin-left: 23px;
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 254px;
+}
+body .footer {
+  padding-bottom: 53px;
+  padding-top: 118px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #ffffff;
+}
+body .footer .div2 {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .footer .div2 img {
+  width: 62px;
+  height: 69px;
+  margin-right: 10px;
+}
+body .footer .div2 p {
+  color: rgb(47, 54, 106);
+  font-family: Advent Pro;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body .footer .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+body .footer .box .Mm .Ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+body .footer .box .Mm .Ol li {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .footer .box .Mm .Ol li:not(:first-child) {
+  margin-left: 45px;
+}
+body .footer .box .Mm .Ol li a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .footer .box .Mm .Ol li a:hover {
+  color: rgb(95, 112, 235);
+}
+body .footer .box .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .footer .box .menu p {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .footer .box .menu p:not(:first-child) {
+  margin-left: 53px;
+}
+body .footer .box .menu p a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .footer .box .menu p a:hover {
+  color: rgb(95, 112, 235);
+}

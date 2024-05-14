@@ -1,0 +1,386 @@
+@media screen and (max-width: 900px) {
+  .conteiner {
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .Grid {
+    max-width: 800px !important;
+    width: 800px !important;
+    -ms-grid-columns: 390px 390px !important;
+    grid-template-columns: 390px 390px !important;
+  }
+  .Parck {
+    max-width: 330px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .conteiner {
+    max-width: 700px !important;
+    width: 700px !important;
+  }
+  .Grid {
+    max-width: 700px !important;
+    width: 700px !important;
+    -ms-grid-columns: 330px 330px !important;
+    grid-template-columns: 330px 330px !important;
+  }
+  .Parck {
+    max-width: 270px !important;
+  }
+  .Parckp {
+    font-size: 13px !important;
+  }
+  .blockp {
+    max-width: 190px !important;
+  }
+}
+@media screen and (max-width: 809px) {
+  .Mm {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .conteiner {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .Grid {
+    display: block !important;
+    max-width: 600px !important;
+    min-height: 300px !important;
+  }
+  .Parck {
+    margin: 0 auto !important;
+    max-width: 430px !important;
+    margin-bottom: 15px !important;
+    height: 66px !important;
+  }
+  .Parckp {
+    font-size: 14px !important;
+  }
+  .comment {
+    background-image: url(../img/600px.png) !important;
+    background-size: 100% 550px !important;
+  }
+  .blocks-s {
+    display: none !important;
+  }
+  h1 {
+    width: 599px !important;
+    font-size: 45px !important;
+  }
+  body {
+    background-image: url(../img/600pxf.png) !important;
+    background-size: 100% 700px !important;
+  }
+  .blocks-s1 {
+    margin-bottom: 80px;
+    margin-top: 40px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blocks-s1 .block {
+    margin-bottom: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+            box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+    width: 280px;
+    height: 361px;
+  }
+  .blocks-s1 .blockh1 {
+    padding-top: 25px;
+    color: rgb(104, 115, 199);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .blocks-s1 .blockp1 {
+    padding-top: 25px;
+    max-height: 105px;
+    color: rgb(104, 115, 199);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .blocks-s1 .svgg {
+    padding-top: 25px;
+    padding-left: 25% !important;
+  }
+}
+@media screen and (max-width: 700px) and (max-width: 600px) {
+  .conteiner {
+    max-width: 500px !important;
+    width: 500px !important;
+  }
+  .Grid {
+    display: block !important;
+    max-width: 500px !important;
+    min-height: 300px !important;
+  }
+  .Parck {
+    margin: 0 auto !important;
+    max-width: 430px !important;
+    margin-bottom: 15px !important;
+    height: 66px !important;
+  }
+  .Parckp {
+    font-size: 14px !important;
+  }
+  .comment {
+    background-image: url(../img/600px.png) !important;
+    background-size: 100% 550px !important;
+  }
+  h1 {
+    width: 500px !important;
+    font-size: 35px !important;
+  }
+}
+@media screen and (max-width: 700px) and (max-width: 500px) {
+  .conteiner {
+    max-width: 400px !important;
+    width: 400px !important;
+  }
+  .Grid {
+    display: block !important;
+    max-width: 400px !important;
+    min-height: 300px !important;
+  }
+  .Parck {
+    max-width: 330px !important;
+    height: 66px !important;
+    margin: 0 auto !important;
+    margin-bottom: 15px !important;
+  }
+  .Parckp {
+    font-size: 12px !important;
+  }
+  .comment {
+    background-image: url(../img/600px.png) !important;
+    background-size: 100% 565px !important;
+  }
+  h1 {
+    width: 400px !important;
+    font-size: 30px !important;
+  }
+  .menu p {
+    color: rgb(47, 54, 106);
+    font-family: Montserrat;
+    font-size: 12px !important;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 auto !important;
+  }
+  .menu p:not(:first-child) {
+    margin-left: 45px !important;
+  }
+  .div2 {
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display-align-items: center;
+  }
+  .div2 img {
+    width: 52px !important;
+    height: 59px !important;
+    margin-right: 10px;
+  }
+  .div2 p {
+    color: rgb(47, 54, 106);
+    font-family: Advent Pro;
+    font-size: 22px !important;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .div1 {
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .div1 img {
+    width: 52px !important;
+    height: 59px !important;
+    margin-right: 10px;
+  }
+  .div1 p {
+    font-size: 22px !important;
+  }
+  h5 {
+    font-size: 15px !important;
+  }
+  .Kongfig {
+    font-size: 19px !important;
+  }
+  .voda {
+    font-size: 21px !important;
+  }
+  button {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 700px) and (max-width: 400px) {
+  .conteiner {
+    max-width: 300px !important;
+    width: 300px !important;
+  }
+  .Grid {
+    display: block !important;
+    max-width: 360px !important;
+    min-height: 300px !important;
+  }
+  .Parck {
+    max-width: 330px !important;
+    margin-bottom: 15px !important;
+    margin-left: 15px !important;
+    height: 66px !important;
+  }
+  .Parckp {
+    font-size: 12px !important;
+  }
+  .comment {
+    background-image: url(../img/600px.png) !important;
+    background-size: 100% 550px !important;
+  }
+  h1 {
+    width: 300px !important;
+    font-size: 25px !important;
+  }
+  .menu p {
+    color: rgb(47, 54, 106);
+    font-family: Montserrat;
+    font-size: 12px !important;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 auto !important;
+  }
+  .menu p:not(:first-child) {
+    margin-left: 45px !important;
+  }
+  .div2 {
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .div2 img {
+    width: 52px !important;
+    height: 59px !important;
+    margin-right: 10px;
+  }
+  .div2 p {
+    font-size: 16px !important;
+  }
+  .div1 {
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .div1 img {
+    width: 52px !important;
+    height: 59px !important;
+    margin-right: 10px;
+  }
+  .div1 p {
+    font-size: 16px !important;
+  }
+  h5 {
+    font-size: 15px !important;
+  }
+  .Kongfig {
+    font-size: 19px !important;
+  }
+  .voda {
+    font-size: 21px !important;
+  }
+  button {
+    font-size: 14px !important;
+  }
+  .menu {
+    margin-left: 15px !important;
+  }
+}
+@media screen and (max-width: 809px) {
+  .Bmenu {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(192, 199, 255);
+    top: -100%;
+    left: 0;
+    -webkit-transition: top 0.3s;
+    transition: top 0.3s;
+    z-index: 900;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Bmenu .ol {
+    list-style: none;
+    padding: 0;
+  }
+  .Bmenu .ol li {
+    margin: 20px 0;
+  }
+  .Bmenu .ol li .Ada {
+    color: rgb(47, 54, 106);
+    text-decoration: none;
+    font-size: 24px;
+  }
+  .Bmenu.active {
+    top: 0;
+  }
+  .burger-menu {
+    display: block !important;
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+}

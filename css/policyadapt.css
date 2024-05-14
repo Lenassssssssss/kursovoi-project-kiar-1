@@ -1,0 +1,134 @@
+@media screen and (max-width: 960px) {
+  .text {
+    font-size: 24px !important;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 909px) {
+  .text {
+    font-size: 24px !important;
+    text-align: left;
+  }
+  .text:not(:first-child) {
+    padding-top: 50px;
+  }
+  main {
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 20px !important;
+  }
+}
+@media screen and (max-width: 809px) {
+  .Mm {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 680px) {
+  h1 {
+    font-size: 42px !important;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 35px !important;
+  }
+}
+@media screen and (max-width: 460px) {
+  h1 {
+    font-size: 27px !important;
+  }
+  .text {
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 509px) {
+  .menu {
+    margin: 0 auto !important;
+  }
+  .menu p {
+    font-size: 12px !important;
+  }
+  .menu:not(:first-child) {
+    margin-left: 45px !important;
+  }
+  .div1 p {
+    font-size: 16px !important;
+  }
+  .div2 p {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menu {
+    margin: 0 auto !important;
+  }
+  .menu p {
+    font-size: 12px !important;
+  }
+  .menu:not(:first-child) {
+    margin-left: 12px !important;
+  }
+  .div1 p {
+    font-size: 16px !important;
+  }
+  .div2 p {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 720px) {
+  body {
+    background-image: url(../img/555.png) !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  body {
+    background-image: url(../img/333.png) !important;
+  }
+}
+@media screen and (max-width: 809px) {
+  .Bmenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(192, 199, 255);
+    top: -100%;
+    left: 0;
+    -webkit-transition: top 0.3s;
+    transition: top 0.3s;
+    z-index: 900;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Bmenu .ol {
+    list-style: none;
+    padding: 0;
+  }
+  .Bmenu .ol li {
+    margin: 20px 0;
+  }
+  .Bmenu .ol li .Ada {
+    color: rgb(47, 54, 106);
+    text-decoration: none;
+    font-size: 24px;
+  }
+  .Bmenu.active {
+    top: 0;
+  }
+  .burger-menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+}

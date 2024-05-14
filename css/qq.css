@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/Fon12.png);
+  background-repeat: no-repeat;
+  background-size: 100% 170px;
+}
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-top: 33px;
+  background-color: #C0C7FF;
+}
+body .header .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .header .div1 img {
+  width: 62px;
+  height: 69px;
+  margin-right: 10px;
+}
+body .header .div1 p {
+  color: rgb(47, 54, 106);
+  font-family: Advent Pro;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body .header .Mm .Ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+body .header .Mm .Ol li {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .header .Mm .Ol li:not(:first-child) {
+  margin-left: 45px;
+}
+body .header .Mm .Ol li a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .header .Mm .Ol li a:hover {
+  color: rgb(253, 253, 255);
+}
+body main {
+  margin: 0 auto;
+  margin-top: 123px;
+  margin-bottom: 160px;
+  width: 100%;
+  max-width: 100%;
+}
+body main h1 {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .faq-container {
+  margin: 0 auto;
+  max-width: 1171px;
+  width: 1171px;
+}
+body main .faq-container .faq {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(192, 199, 255);
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(255, 255, 255);
+  margin-top: 47px;
+}
+body main .faq-container .faq.active {
+  border: 3px solid rgb(104, 115, 199);
+}
+body main .faq-container .faq .question {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 41px;
+  letter-spacing: 0%;
+  margin: 12px 23px;
+  font-weight: 500px;
+  text-align: left;
+}
+body main .faq-container .faq .answer {
+  display: none;
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500px;
+  line-height: 41px;
+  letter-spacing: 0%;
+  padding: 12px;
+  text-align: left;
+  margin-top: 23px;
+  margin-left: 12px;
+}
+body .footer {
+  margin-bottom: 53px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #ffffff;
+}
+body .footer .div2 {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .footer .div2 img {
+  width: 62px;
+  height: 69px;
+  margin-right: 10px;
+}
+body .footer .div2 p {
+  color: rgb(47, 54, 106);
+  font-family: Advent Pro;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body .footer .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+body .footer .box .Mm .Ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+body .footer .box .Mm .Ol li {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .footer .box .Mm .Ol li:not(:first-child) {
+  margin-left: 45px;
+}
+body .footer .box .Mm .Ol li a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .footer .box .Mm .Ol li a:hover {
+  color: rgb(95, 112, 235);
+}
+body .footer .box .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .footer .box .menu p {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .footer .box .menu p:not(:first-child) {
+  margin-left: 53px;
+}
+body .footer .box .menu p a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .footer .box .menu p a:hover {
+  color: rgb(95, 112, 235);
+}

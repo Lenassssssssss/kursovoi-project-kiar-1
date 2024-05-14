@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/Fontable.png);
+  background-repeat: no-repeat;
+  background-size: 100% 1200px;
+}
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 53px;
+  background-color: #C0C7FF;
+}
+body .header .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .header .div1 img {
+  width: 62px;
+  height: 69px;
+  margin-right: 10px;
+}
+body .header .div1 p {
+  color: rgb(47, 54, 106);
+  font-family: Advent Pro;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body .header .Mm .Ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+body .header .Mm .Ol li {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .header .Mm .Ol li:not(:first-child) {
+  margin-left: 45px;
+}
+body .header .Mm .Ol li a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .header .Mm .Ol li a:hover {
+  color: rgb(253, 253, 255);
+}
+body main {
+  padding-top: 200px;
+}
+body main h1 {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 953px;
+  height: 133px;
+  margin: 0 auto;
+}
+body main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  hight: 900px;
+  margin-top: 100px;
+}
+body main .container .nationscontent {
+  width: 324px;
+  margin-left: 180px;
+}
+body main .container .nationscontent .nations {
+  width: 324px;
+  height: 245px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 9px solid rgb(225, 229, 255);
+  background: rgb(192, 199, 255);
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 63px;
+  letter-spacing: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .container .nationscontent .nationstext {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 12px;
+}
+body main .container .slider {
+  position: relative;
+  margin-top: 90px;
+}
+body main .container .slider .slide img {
+  width: 351px;
+  height: 205px;
+  display: none;
+}
+body main .container .slider .slide img.active {
+  display: block;
+}
+body main .container .slider .flagbutton {
+  cursor: pointer;
+  text-align: center;
+  width: 98px;
+  height: 56px;
+  border-radius: 90px;
+  background: rgb(225, 229, 255);
+  margin-top: 17px;
+}
+body main .container .slider .flagbutton:hover {
+  background: rgb(234, 237, 255);
+}
+body main .container .serverscontent {
+  width: 324px;
+  margin-right: 180px;
+}
+body main .container .serverscontent .servers {
+  width: 324px;
+  height: 245px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 9px solid rgb(225, 229, 255);
+  background: rgb(192, 199, 255);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .container .serverscontent .serverstext {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 12px;
+}
+body main .text {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 310px;
+  margin-right: 6px;
+  margin-left: 36px;
+  margin-bottom: 35px;
+}
+body main .fon {
+  background-image: url(../img/feedback.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 800px;
+}
+body main .fon .fontext {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 480.67px;
+  height: 82px;
+  padding-top: 75px;
+  margin: 0 auto;
+}
+body main .fon .scroll-text {
+  width: 1015px;
+  overflow-x: auto;
+  white-space: nowrap;
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 166px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+body main .fon .scroll-text span {
+  padding-left: 64px;
+}
+body main .fon .scroll-text:hover {
+  color: rgb(96, 108, 204);
+}
+body main .fon .scrollbutton {
+  cursor: pointer;
+  width: 400px;
+  height: 54px;
+  border-radius: 100px;
+  background: rgb(225, 229, 255);
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  margin-top: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .fon .scrollbutton:hover {
+  background: rgb(234, 237, 255);
+}
+body .footer {
+  padding-top: 53px;
+  padding-bottom: 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #ffffff;
+}
+body .footer .div2 {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .footer .div2 img {
+  width: 62px;
+  height: 69px;
+  margin-right: 10px;
+}
+body .footer .div2 p {
+  color: rgb(47, 54, 106);
+  font-family: Advent Pro;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body .footer .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+body .footer .box .Mm .Ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+body .footer .box .Mm .Ol li {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .footer .box .Mm .Ol li:not(:first-child) {
+  margin-left: 45px;
+}
+body .footer .box .Mm .Ol li a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .footer .box .Mm .Ol li a:hover {
+  color: rgb(95, 112, 235);
+}
+body .footer .box .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .footer .box .menu p {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .footer .box .menu p:not(:first-child) {
+  margin-left: 53px;
+}
+body .footer .box .menu p a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .footer .box .menu p a:hover {
+  color: rgb(95, 112, 235);
+}

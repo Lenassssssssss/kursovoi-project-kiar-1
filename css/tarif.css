@@ -1,0 +1,1095 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.Bmenu {
+  display: none;
+}
+
+#prevButton, #nextButton {
+  display: none;
+}
+
+body {
+  background-image: url(../img/text.png);
+  background-repeat: no-repeat;
+  background-size: 100% 330px;
+}
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 53px;
+  background-color: #C0C7FF;
+}
+body .header .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .header .div1 img {
+  width: 62px;
+  height: 69px;
+  margin-right: 10px;
+}
+body .header .div1 p {
+  color: rgb(47, 54, 106);
+  font-family: Advent Pro;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body .header .Mm .Ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+body .header .Mm .Ol li {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .header .Mm .Ol li:not(:first-child) {
+  margin-left: 45px;
+}
+body .header .Mm .Ol li a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .header .Mm .Ol li a:hover {
+  color: rgb(253, 253, 255);
+}
+body main {
+  max-width: 100%;
+  width: 100%;
+}
+body main h1 {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 773px;
+  margin: 0 auto;
+}
+body main .shag1 {
+  margin: 0 auto;
+  margin-top: 99px;
+  width: 899px;
+  max-width: 899px;
+}
+body main .shag1 .text h5 {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag1 .text .VPN {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag1 .tarifs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+body main .shag1 .tarifs .block1 {
+  width: 280px;
+  height: 341px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+}
+body main .shag1 .tarifs .block1 .mouth {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+body main .shag1 .tarifs .block1 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .shag1 .tarifs .block1 .money .pp {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 9px;
+  margin-right: 3px;
+}
+body main .shag1 .tarifs .block1 .money .buns {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .shag1 .tarifs .block1 .little {
+  color: rgb(104, 115, 199);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 42px;
+}
+body main .shag1 .tarifs .block1 .plan {
+  width: 200px;
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 30px 15px 30px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  border-radius: 100px;
+  background: rgb(225, 229, 255);
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+body main .shag1 .tarifs .block1 button:hover {
+  background: rgb(191, 199, 255);
+}
+body main .shag1 .tarifs .block1 .garant {
+  color: rgb(155, 155, 155);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
+}
+body main .shag1 .tarifs .block2 {
+  width: 280px;
+  height: 437px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+}
+body main .shag1 .tarifs .block2 .mouth {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 48px;
+}
+body main .shag1 .tarifs .block2 .cherta {
+  margin-top: 41px;
+  color: rgb(155, 155, 155);
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: line-through;
+}
+body main .shag1 .tarifs .block2 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .shag1 .tarifs .block2 .money .pp {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 9px;
+  margin-right: 3px;
+}
+body main .shag1 .tarifs .block2 .money .buns {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .shag1 .tarifs .block2 .little {
+  color: rgb(104, 115, 199);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 61px;
+}
+body main .shag1 .tarifs .block2 .plan {
+  width: 200px;
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 30px 15px 30px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  border-radius: 100px;
+  background: rgb(225, 229, 255);
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+body main .shag1 .tarifs .block2 button:hover {
+  background: rgb(191, 199, 255);
+}
+body main .shag1 .tarifs .block2 .garant {
+  color: rgb(155, 155, 155);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 35px;
+}
+body main .shag1 .tarifs .block3 {
+  width: 280px;
+  height: 341px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+}
+body main .shag1 .tarifs .block3 .mouth {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+body main .shag1 .tarifs .block3 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .shag1 .tarifs .block3 .money .pp {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 9px;
+  margin-right: 3px;
+}
+body main .shag1 .tarifs .block3 .money .buns {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body main .shag1 .tarifs .block3 .little {
+  color: rgb(104, 115, 199);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 22px;
+}
+body main .shag1 .tarifs .block3 .plan {
+  width: 200px;
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 30px 15px 30px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  border-radius: 100px;
+  background: rgb(225, 229, 255);
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+body main .shag1 .tarifs .block3 button:hover {
+  background: rgb(191, 199, 255);
+}
+body main .shag1 .tarifs .block3 .garant {
+  color: rgb(155, 155, 155);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
+}
+body main .shag3fon {
+  width: 100%;
+  max-width: 100%;
+  background-image: url(../img/rebra2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+  height: 902px;
+}
+body main .shag3fon .shag2 {
+  padding-top: 33px;
+  margin: 0 auto;
+  margin-top: 76px;
+  width: 899px;
+  max-width: 899px;
+}
+body main .shag3fon .shag2 .Adress h5 {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag3fon .shag2 .Adress .TextText {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag3fon .shag2 .Adress .text2 {
+  color: rgb(155, 155, 155);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 565px;
+  margin-bottom: 24px;
+  margin-top: 8px;
+}
+body main .shag3fon .shag2 .oneform input {
+  width: 508px;
+  height: 65px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 7px;
+  background: rgb(248, 248, 248);
+  color: rgb(155, 155, 155);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-left: 19px;
+}
+body main .shag3fon .shag3 {
+  padding-bottom: 33px;
+  margin: 0 auto;
+  margin-top: 76px;
+  width: 899px;
+  max-width: 899px;
+}
+body main .shag3fon .shag3 h5 {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag3fon .shag3 .TextText {
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag3fon .shag3 .galochka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+body main .shag3fon .shag3 .galochka svg {
+  width: 20px;
+  height: 20px;
+}
+body main .shag3fon .shag3 .galochka .gltxt {
+  color: rgb(155, 155, 155);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag3fon .shag3 .last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .shag3fon .shag3 .last .twoform {
+  margin-top: 39px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(255, 255, 255);
+  width: 508px;
+  height: 65px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  -webkit-transition: margin 0.3s ease;
+  transition: margin 0.3s ease;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 490px;
+  height: 65px;
+  padding-right: 10px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content {
+  width: 240px;
+  margin-top: 12px;
+  display: none;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content .visa {
+  Z-index: 10;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(249, 249, 249);
+  width: 508px;
+  height: 65px;
+  border-radius: 6px 6px 0px 0px;
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 15px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content .mastercard {
+  Z-index: 10;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(249, 249, 249);
+  width: 508px;
+  height: 65px;
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 15px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content .belkart {
+  Z-index: 10;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(249, 249, 249);
+  width: 508px;
+  height: 65px;
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 15px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content .unionpay {
+  Z-index: 10;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(249, 249, 249);
+  width: 508px;
+  height: 65px;
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 15px;
+  border-radius: 0px 0px 6px 6px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(255, 255, 255);
+  width: 508px;
+  height: 65px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .summary {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content {
+  display: none;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content .paypal {
+  Z-index: 10;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(249, 249, 249);
+  width: 508px;
+  height: 65px;
+  border-radius: 6px 6px 6px 6px;
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 15px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(255, 255, 255);
+  width: 508px;
+  height: 65px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .summary {
+  margin: 0 auto;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content {
+  display: none;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content .bitcoin {
+  Z-index: 10;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(249, 249, 249);
+  width: 508px;
+  height: 65px;
+  border-radius: 6px 6px 6px 6px;
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 15px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(255, 255, 255);
+  width: 508px;
+  height: 65px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content {
+  display: none;
+}
+body main .shag3fon .shag3 .last .twoform .accordion .content .vpn {
+  Z-index: 10;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(243, 243, 243);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+          box-shadow: 0px 1px 3px 0px rgba(29, 30, 38, 0.1);
+  background: rgb(249, 249, 249);
+  width: 508px;
+  height: 65px;
+  border-radius: 6px 6px 6px 6px;
+  color: rgb(104, 115, 199);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body main .shag3fon .shag3 .last .tarifblock {
+  margin-top: 39px;
+  max-width: 384px;
+  max-height: 296px;
+  border-radius: 7px;
+  border: 1px solid rgb(218, 218, 218);
+  background: rgb(255, 255, 255);
+  margin-left: 13px;
+}
+body main .shag3fon .shag3 .last .tarifblock .zag {
+  padding-left: 21px;
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag3fon .shag3 .last .tarifblock .blockdiv1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 21px;
+  padding-right: 25px;
+}
+body main .shag3fon .shag3 .last .tarifblock .blockdiv1 .twelve {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag3fon .shag3 .last .tarifblock .blockdiv1 .rub1 {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag3fon .shag3 .last .tarifblock .blockdiv2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 25px;
+}
+body main .shag3fon .shag3 .last .tarifblock .blockdiv2 .rub2 {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body main .shag3fon .shag3 .last .tarifblock .aconom {
+  color: rgb(104, 115, 199);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: right;
+  padding-right: 25px;
+}
+body main .shag3fon .shag3 .last .tarifblock .blocktextdiv {
+  width: 382px;
+  height: 153px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 0px 0px 7px 7px;
+}
+body main .shag3fon .shag3 .last .tarifblock .blocktextdiv .blocktext1 {
+  color: rgb(155, 155, 155);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 35px;
+  padding-top: 14px;
+  padding-left: 15px;
+}
+body main .shag3fon .shag3 .last .tarifblock .blocktextdiv .blocktext2 {
+  color: rgb(155, 155, 155);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 15px;
+}
+body .footer {
+  padding-bottom: 53px;
+  padding-top: 118px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #ffffff;
+}
+body .footer .div2 {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .footer .div2 img {
+  width: 62px;
+  height: 69px;
+  margin-right: 10px;
+}
+body .footer .div2 p {
+  color: rgb(47, 54, 106);
+  font-family: Advent Pro;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body .footer .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+body .footer .box .Mm .Ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+body .footer .box .Mm .Ol li {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .footer .box .Mm .Ol li:not(:first-child) {
+  margin-left: 45px;
+}
+body .footer .box .Mm .Ol li a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .footer .box .Mm .Ol li a:hover {
+  color: rgb(95, 112, 235);
+}
+body .footer .box .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .footer .box .menu p {
+  color: rgb(47, 54, 106);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .footer .box .menu p:not(:first-child) {
+  margin-left: 53px;
+}
+body .footer .box .menu p a {
+  text-decoration: none;
+  color: rgb(47, 54, 106);
+}
+body .footer .box .menu p a:hover {
+  color: rgb(95, 112, 235);
+}
